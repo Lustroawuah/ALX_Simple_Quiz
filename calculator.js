@@ -1,3 +1,4 @@
+
 function add(number1, number2) {
     return number1 + number2;
 }
@@ -12,11 +13,12 @@ function multiply(number1, number2) {
     return number1 * number2;
 }
 
-
+// Function to divide two numbers
 function divide(number1, number2) {
     if (number2 === 0) {
         alert("Cannot divide by zero.");
         return null; 
+    }
     return number1 / number2;
 }
 
