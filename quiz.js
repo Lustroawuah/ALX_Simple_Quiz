@@ -12,9 +12,9 @@ function checkAnswer() {
         
         const userAnswerValue = userAnswer.value;
 
-        // Step 4: Compare the User’s Answer with the Correct Answer.
+        
         if (userAnswerValue === correctAnswer) {
-            // If the values match
+            
             feedbackElement.textContent = "Correct! Well done.";
             feedbackElement.style.color = "green"; 
         } else {
